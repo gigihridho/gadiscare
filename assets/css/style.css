@@ -16,11 +16,11 @@ body {
 }
 
 a {
-    color: #1bac91;
+    color: #EFC058;
 }
 
 a:hover {
-    color: #22d8b6;
+    color: #EFC058;
     text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ h6 {
 
 .back-to-top:hover {
     color: #fff;
-    background: #18967e;
+    background: #EFC058;
     transition: background 0.2s ease-in-out;
 }
 
@@ -150,7 +150,7 @@ h6 {
     height: 2px;
     bottom: 3px;
     left: 0;
-    background-color: #1bac91;
+    background-color: #EFC058;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -204,7 +204,7 @@ h6 {
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-    color: #1bac91;
+    color: #EFC058;
 }
 
 .nav-menu .drop-down>a:after {
@@ -303,7 +303,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #1bac91;
+    color: #EFC058;
     text-decoration: none;
 }
 
@@ -416,8 +416,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-    border-color: #1bac91;
-    background: #1bac91;
+    border-color: #EFC058;
+    background: #EFC058;
 }
 
 @media (min-width: 1024px) {
@@ -563,7 +563,7 @@ section {
 .about .icon-box i {
     font-size: 48px;
     float: left;
-    color: #1bac91;
+    color: #EFC058;
 }
 
 .about .icon-box h4 {
@@ -589,7 +589,7 @@ section {
 --------------------------------------------------------------*/
 
 section.services {
-    background: linear-gradient(to right, #1bac91, #1bac91);
+    background: linear-gradient(to right, #63594C, #63594C);
 }
 
 .services .card {
@@ -608,6 +608,7 @@ section.services {
     font-size: 0.9rem;
     letter-spacing: .1rem;
     font-weight: bold;
+    color: white;
 }
 
 .services .card-price {
@@ -615,8 +616,14 @@ section.services {
     margin: 0;
 }
 
-.services h2 {
+.services h3 {
     font-size: 24px;
+    color: white;
+}
+
+.services p {
+    color: white;
+    font-size: 16px;
 }
 
 .services ul li {
